@@ -1,0 +1,4 @@
+ =============== 
+ this is a luajit timelib, which can provide accurate time 
+ gcc gettime.c -fPIC -shared -o libtime.so
+ 1408930398.758409

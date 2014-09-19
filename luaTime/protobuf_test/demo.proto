@@ -1,0 +1,6 @@
+package demo;
+
+message Demo {
+            required string stuff = 1;
+}
+
