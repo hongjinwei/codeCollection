@@ -1,4 +1,16 @@
- =============== 
+ Introduction:
+ ================
  this is a luajit timelib, which can provide accurate time 
+ 
+
+ time return is like this below:
+ ================
+    1408930398.758409
+ 
+ 
+ how to build a so:
+ ================
  gcc gettime.c -fPIC -shared -o libtime.so
- 1408930398.758409
+ 
+    here I use two methods to get accurate CPU time with ffi lib,first is to use my own lib and demo is in gettime.lua, other is to use linux gettimeofday function in c lib and lua call this function directly with the help of ffi.This is in gettimeofday.lua
+
