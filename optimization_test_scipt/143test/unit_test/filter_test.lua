@@ -1,0 +1,6 @@
+local conf = init.campains
+
+local  creatives, line_items = conf.creatives, conf.line_items
+local   bid_context = {ad_exchange = "baidu", adslot = {ad_block_key = 77667, adslot_type = 0, creative_type = {1}, excluded_landing_page_url = {"www.landing_page2.com", "www.landing_page5.com", "www.landing_page6.com"}, height = 60, minimum_cpm = 3799, sequence_id = 1, slot_visibility = 1, width = 640}, allowed_creative_type_hash = {nil}, bid_id = "jd63oxyfyhcz4hxgcoku8v3yjunbeewp", bilin_user_id = "a548f7ee-052a-4ec7-cebd-040fb432a571", browser = "firefox", domain = "baidu3.com", exchange_user_id = "jd63oxyfyhcz4hxgcoku8v3yjunbeewp", excluded_ad_category_hash = {nil, nil, nil, nil, nil}, excluded_through_url_hash = {www.landing_page2.com = "1", www.landing_page5.com = "1", www.landing_page6.com = "1"}, geo_info = {}, language = "chinese (traditional)", os = "windows", page_keyword = {baidu1 = "1", baidu10 = "1", baidu6 = "1"}, page_quality = 1, page_type = 10, referer = "www.baidu_refer4.com", site_category = 23, site_quality = 3, size = {"640x60"}, url = "www.baidu3.com", user_agent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070118 Firefox/2.0.0.2pre", user_category = {nil}, user_gender = 0, user_ip = "243.251.164.153"}
+
+local segments = {} 
